@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .mainColor {
+        @apply text-red-700
+    }
+
+    .main_bg {
+        @apply bg-[#5474FD]
+    }
+
+    .secondaryColor {
+        @apply text-[#9397A0]
+    }
+}
